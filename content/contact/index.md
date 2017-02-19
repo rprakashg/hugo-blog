@@ -16,6 +16,5 @@ There are several ways to get in touch with me, here are few options
   * Connect with <a title="me" href="http://www.linkedin.com/in/rprakashg/" target="_blank">me</a> on linked in
   * Email me @ [rprakashg@hotmail.com][1]
 
-&nbsp;
 
  [1]: mailto:rprakashg@hotmail.com "rprakashg@hotmail.com"

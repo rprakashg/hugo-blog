@@ -1,14 +1,9 @@
----
-title: About
-author: Ram Gopinathan
-layout: page
-date: 2014-05-23T07:01:11+00:00
-dsq_thread_id:
-  - 2711683182
-dsq_needs_sync:
-  - 1
++++
+draft = false
+date = "2017-02-18T20:50:37-08:00"
+title = "About"
++++
 
----
 *PROFESSIONAL*
 * * *
 

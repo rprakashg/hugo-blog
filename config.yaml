@@ -1,5 +1,6 @@
 ---
 title: "RPRAKASHG.GITHUB.IO"
+subtitle: "Tales from the trenches"
 languageCode: "en-us"
 contentdir: "content"
 layoutdir: "layouts"
@@ -25,4 +26,3 @@ menu:
       Pre: "<i class='fa fa-road'></i>"
       Weight: -100
       URL: "/contact/"
-...

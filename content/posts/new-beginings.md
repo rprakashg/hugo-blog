@@ -1,10 +1,9 @@
-title: New beginings
-author: Ram Gopinathan
-layout: post
-categories:
-  - announcement
++++
+title = "New beginings"
+draft = false
+date = "2017-02-18T20:45:20-08:00"
 
----
++++
 
 After contracting with T-Mobile for a year I've accepted a full time opportunity as Principal Architect on Jan 17th of this year. 
 Over past year I learned and grown so much that I had to continue the journey. 

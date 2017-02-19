@@ -22,4 +22,6 @@ echo "Generating site"
 hugo
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+#cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+
+git subtree push --prefix=public git@github.com:rprakashg/hugo_gh_blog.git gh-pages

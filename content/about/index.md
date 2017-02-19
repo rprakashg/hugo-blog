@@ -10,7 +10,6 @@ dsq_needs_sync:
 
 ---
 *PROFESSIONAL*
-
 * * *
 
 My name is Ram Gopinathan and I am Principal Architect with T-Mobile where I focus primarily on AWS cloud, Docker, Linux and 
@@ -22,10 +21,13 @@ to attend R2 rotation of MCM (SharePoint) program and became first few to achiev
 active, I definitely consider it as one of the highest points of my professional career.
 
 *PERSONAL*
-
 * * *
 
-I live in Redmond, WA, married with two kids. I&#8217;ve moved around a lot through out my life, in the 90&#8217;s moved to the States (East Coast), in 2001 moved to Chicago mainly to be closer to wife&#8217;s family and in 2012 we moved to Redmond, WA, although we are very far from our family, we absolutely love it here. We love how green the entire state of Washington is and adore the natural beauty it has to offer. Hopefully this is it, no more moving 🙂
+I live in Redmond, WA, married with two kids. I've moved around a lot through out my life, in the 90's moved to the States (East Coast), 
+in 2001 we moved to Chicago mainly to be closer to wife's family and in 2012 we moved to Redmond, WA, although we are very far from our 
+family, we absolutely love it here. We love how green the entire state of Washington is and adore the natural beauty it has to offer. 
+Hopefully this is it, no more moving 🙂
 
-I&#8217;m also an avid runner, I use a site called <a title="MapMyRun" href="http://www.mapmyrun.com" target="_blank">MapMyRun</a> to keep track of all my running. If you are into running look me up on mapmyrun. Staying fit is very important to me and running is fun, motivating, fulfilling and addictive especially if you track your runs. 
+Cheers,
+Ram
 

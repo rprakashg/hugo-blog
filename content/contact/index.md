@@ -9,12 +9,10 @@ dsq_needs_sync:
   - 1
 
 ---
+
 There are several ways to get in touch with me, here are few options
 
-  * Follow me on <a title="twitter" href="http://twitter.com/dad2lnl" target="_blank">twitter </a>where I actively share about technology and running and occasional rants about stuff 🙂
+  * Follow me on http://twitter.com/dad2lnl where I actively share about technology and running and occasional rants about stuff 🙂
   * Obviously you can comment on the posts here
-  * Connect with <a title="me" href="http://www.linkedin.com/in/rprakashg/" target="_blank">me</a> on linked in
+  * Connect with me on Linked in @ http://www.linkedin.com/in/rprakashg/"
   * Email me @ [rprakashg@hotmail.com][1]
-
-
- [1]: mailto:rprakashg@hotmail.com "rprakashg@hotmail.com"

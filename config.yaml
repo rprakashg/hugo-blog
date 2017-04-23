@@ -1,5 +1,5 @@
 ---
-title: "RPRAKASHG.GITHUB.IO"
+title: "RPRAKASHG.IO"
 subtitle: "Tales from the trenches"
 languageCode: "en-us"
 contentdir: "content"
@@ -7,7 +7,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
     category: "categories"
-baseurl: https://rprakashg.github.io/blog/
+baseurl: http://blog.rprakashg.io
 canonifyurls: true
 permalinks:
   post: /:year/:month/:title/

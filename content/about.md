@@ -7,7 +7,7 @@ title = "About"
 *PROFESSIONAL*
 * * *
 
-My name is Ram Gopinathan and I am Principal Architect with T-Mobile where I focus primarily on AWS cloud, Docker, Linux and 
+My name is Ram Gopinathan and I am Principal Architect with T-Mobile where I focus primarily on AWS cloud, Docker, Mesos/Marathon, Linux and 
 Microservices using Java and SpringBoot as well as Vertx and other frameworks. 
 
 Prior to starting with T-Mobile in Jan of 2016 I was focused on Azure Cloud, SharePoint and .NET and spent almost 10 years helping customers 

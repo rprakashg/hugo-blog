@@ -1,14 +1,13 @@
 language: go
 go:
-- 1.7.x
-- master
+- 1.8.x
 install:
 - go get -v github.com/spf13/hugo
 script:
 - hugo
 - python --version
 - sudo pip install s3cmd
-- s3cmd sync -M -r public/ s3://rprakashg-io-web/blog/
+- s3cmd sync --access_key=${AWS_ACCESS_KEY} --secret_key=${AWS_SECRET_KEY} -M -r public/ s3://rprakashg-io-web/blog/
 notifications:
   email:
     on_failure: always

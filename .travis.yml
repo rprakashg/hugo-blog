@@ -1,0 +1,19 @@
+language: go
+go:
+- 1.7.x
+- master
+install:
+- go get -v github.com/spf13/hugo
+script:
+- hugo
+- python --version
+- sudo pip install s3cmd
+- s3cmd sync --access_key $AWS_ACCESS_KEY --secret_key $AWS_SECRET_KEY -M -r public/
+  s3://rprakashg-io-web/blog
+notifications:
+  email:
+    on_failure: always
+env:
+  global:
+  - secure: YPz8xXKeDqkyr9UR6HEBiFSe5BBLbl6sQgejBBUmqdo1RXThZDjCJrEm36x7tYhbvC6IdbDN+Rm0i+DJc88vVbcsnDNv+1X0PAzUnuo5TUgHNvB7//7oide2zvnHPZDfM/RkYRKxJmySDotTvqYEKtwj116WrdHfA1uLijV7GLSiXDDQtr0UnDsMFH+zIlAPQAgiF/p5yuzYK/VjUglOMXeH+32RulDVTinVRMQkQRXyoXQZjSFJH4fyEE6L1JPiXenvIs0b7GCbsa7fVpYMry5e7lA5kfkxoUYdjKhYYYQU14oIhjvbX9j3UrC702OW6L4glwNpzisekwTKfpqRuM/WhR5B3Cmp+476fc0M/dUWWWXzQdG6NQFsfjIqIXiULHw6F6bWYvRsB+dV2MmhWOX/kI51RPZPpBxCU8xW7xKdLdgiYhgCPTgm8JZkUj4dqEeVFbA2GmSozSH5KBXK/gzlxwb4l364kjRfdmxWTK7Sf62FoEp83gpVOLb+RG7bnc9+jzRRZFQ7gf22yvJXvajQdpJmKKTlu3+wbOyavyvIG5RJL/tQ22e1oLtWuK9QwjnTwdLj6W0msjuPqWnbp3waDHUn16JKbzfAtnTxG2REgsSEGmng5bhDp6Lpzb9UyBSCxzhdHHXMsrOOggDHU/DZcYNN6SYw39OVfeeNeGc=
+  - secure: pmaJULKQvGoVjNuJHb1Ddbnh4iGMbtvMZ/jET+22RBG0lVrUAnLc8iz5gZ27JDHsr+17z+nRUQSbC4EXKlim1Qb5M/12hUKtz8yktie8KA14m5QC1k7Kx6Gkn2uTjcaDrYIP7Wqh0JAKEVrEj+zePGwsXvSSkRfjHeXp0XIARW5o/siH0hbevbxyYyfQw6ucq4diY3KsTTgCFsnH4UxyL9615vL8jHWjAdRETK9cxVKRWesPYHHoQdJ9tAjNTwW9+9sQc6xeg3yly6WXWtLw1p8OryS8oDUT0O/okC0y631eCO6tG9E5OeAv8xqhbTDdD9krt6CrV7M5YS5TVGsryedptAGcrlwe5ZYKT5fVBrjGnS0tYQA2QOZH3ARIBoktAqLTxAV2C+LsS7otUla9gLad1uKI2/ZMmro9Q2wZnhQclRWCou+5pT3bsgRk4022bihx7ejhWwhqanAX5yLMMmFBRguRfRPQAf4tE6Vc/SA/1N/9RYwFXCYm/ZdX3MNEEzKd9nI9xD2LO4TvOp5cWzuWjSFt4gu5nHamhLJ66qHHmJ6G8+Qz3iu2iitmnb5rlHwS7Pv17k8zje3A/CZ5HVN2DgVWfjkQHQO71vfX1oSQjTvC6a6TMh7rJhQjkkt47NIDjI1McJ/tMLbW2AXz5hMcPsoVJoncwYVmo2SYUGM=

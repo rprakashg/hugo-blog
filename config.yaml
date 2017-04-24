@@ -21,8 +21,4 @@ menu:
       Pre: "<i class='fa fa-heart'></i>"
       Weight: -110
       Identifier: "about"
-      URL: "/about/"
-    - Name: "CONTACT"
-      Pre: "<i class='fa fa-road'></i>"
-      Weight: -100
-      URL: "/contact/"
+      URL: "http://rprakashg.io"

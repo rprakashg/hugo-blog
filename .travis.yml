@@ -11,7 +11,7 @@ deploy:
   secret_access_key: "${AWS_SECRET_KEY}"
   bucket: rprakashg-io-web
   upload-dir: blog
-  local_dir: ~/gopath/src/github.com/rprakashg/blog/public
+  local_dir: /gopath/src/github.com/rprakashg/blog/public
 notifications:
   email:
     on_failure: always

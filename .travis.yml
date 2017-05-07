@@ -16,7 +16,7 @@ deploy:
   skip_cleanup: true
 after_deploy:
 - aws configure set preview.cloudfront true
-- "./cdn-invalidate.sh"
+- ./cdn-invalidate.sh
 notifications:
   email:
     on_failure: always

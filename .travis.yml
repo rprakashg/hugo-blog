@@ -3,7 +3,7 @@ go:
 - 1.8.x
 install:
 - go get -v github.com/spf13/hugo
-- pip install awscli
+- sudo pip install awscli
 script:
 - hugo
 deploy:

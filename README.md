@@ -1,2 +1,6 @@
-# http://blog.rprakashg.io
-Personal blog hosted AWS S3 statically generated using hugo. For more information go to gohugo.io
+# Personal blog
+
+[![Build Status](https://travis-ci.org/rprakashg/blog.png?branch=master)](https://travis-ci.org/rprakashg/blog)
+
+This is repository where all the blog posts authored will be stored. Blog site is statically generated using Hugo and is available at [rprakashg.io/blog](http://rprakashg.io/blog)
+

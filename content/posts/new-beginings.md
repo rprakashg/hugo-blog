@@ -4,12 +4,15 @@ draft = false
 date = "2017-02-18T20:45:20-08:00"
 +++
 
-After contracting with T-Mobile for a year I've accepted a full time opportunity as Principal Architect on January 17th of this year. Over past year I learned and grown so much that I had to continue the journey. 
+It was quite strange how I ended up in working at T-Mobile, I had wrapped up a contract with Microsoft IT in November of 2015 and was looking for the next gig when I got the opportunity to interview with T-Mobile. After my interview I never thought I would end up getting the gig because my background was Azure and Microsoft stack and the group I interviewed with was on Java/OSS workloads and on AWS. Even though I got the gig I was not sure if it would be a good move. Since I was doing Training gigs between consulting gigs I din't feel like I should rush into getting a gig. 
 
-My previous blog [thisdevmind.com](http://www.thisdevmind.com) will be inactive and I wont be posting anything there anymore. This blog will mostly focus on 
-DevOps, AWS Cloud, Docker, Microservices with SpringBoot & GoKit, API Design/Development, Kafka and Cassandra. 
+I've never been one hesitant to make changes and the opportunity to work on AWS, Microservices, OSS stack was too good to pass. 
+2016 ended up being a good year as I worked my behind off learning and transitioning to AWS cloud, Linux & OSS technologies, I gained many new skills but most importantly deployed many dockerized microservices and numerous other features and enhancements into production. During this time I gained many new friends and work became fun for me again. I had found my passion that I had lost somewhere down the line.
 
-This blog is built using Hugo with content stored in github repository and using AWS S3 along with cloudfront for hosting. I must say its costing me way less money monthly and better performance. I'm also using Travisci builds to automatically publish generated site contents to S3. 
+After contracting with T-Mobile for a year I've accepted a full time opportunity as Principal Architect on January 17th of this year.
+
+Moral of the story? Keep an open mind, work your behind off, see the big picture, don't hesitate to make changes, you must definitely catch the trend and ride it and most importantly have fun doing it.
+
 
 Cheers,
 Ram

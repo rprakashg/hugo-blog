@@ -1,6 +1,8 @@
 +++
 date = "2017-05-07T10:51:09-07:00"
 title = "Some thoughts on running docker registries in jFrog artifactory"
+tags = ["docker", "artifactory", "registry", "discovery"]
+categories = ["docker", "artifactory"]
 draft = false
 
 +++

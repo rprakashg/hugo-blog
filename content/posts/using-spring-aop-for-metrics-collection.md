@@ -165,12 +165,15 @@ If you are interested in seeing this in action simply clone this repo as shown b
 ```
 git clone https://github.com/rprakashg/metrics-demo.git
 ```
-Swtich directory to metrics-demo/metrics-common and run mvn command below to compile and install the jar in your local maven repo.
+*Updates 07/03/2017: Updated dockerfile to leverage docker multi stage builds as a result mvn clean install no longer needs to be run*
+<del> Swtich directory to metrics-demo/metrics-common and run mvn command below to compile and install the jar in your local maven repo.</del>
+```diff
+  mvn clean install
 ```
-mvn clean install
-```
-Next switch the directory to "stock-quote-service" directory under "metrics-demo" and run the same maven command as above.
-Change the directory back to "metrics-demo" and simply run the docker-compose command shown below. This will build a container image for stock-quote-service microservice 
+<del>Next switch the directory to "stock-quote-service" directory under "metrics-demo" and run the same maven command as above.
+Change the directory back to "metrics-demo" and simply run the docker-compose command shown below. This will build a container image for stock-quote-service microservice.</del>
+Build the stock quote demo service by running the docker-compose command below.
+
 ```
 docker-compose -f metrics.yml build
 ```

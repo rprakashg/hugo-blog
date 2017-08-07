@@ -40,6 +40,8 @@ You can find the source code for the bot in this github [repository](https://git
 
 This was a lot of fun recommend you guys to look at bot development you can automate lot of manual steps, as well as connect people with cloud services in an easy to use manner using platforms that are commonly used.
 
+*Update 08/07/2017:* You can run the bot in heroku as well, today I'm running this for our team in Heroku. Travis file included in the repo can be leveraged to deploy to Heroku on checkin. Just need to update the API key. For more info see [Heroku Deployment](https://docs.travis-ci.com/user/deployment/heroku/)
+
 Cheers,
 Ram
 

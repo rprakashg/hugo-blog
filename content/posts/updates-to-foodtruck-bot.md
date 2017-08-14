@@ -6,7 +6,7 @@ categories: ["resources", "golang", "botdevelopment"]
 tags: ["slack", "seattlefoodtruck", "bot", "golang"]
 ---
 
-In this post I will highlight few enhancements that I've implemented in the seattle food truck bot. If you haven't read my previous post on seattle food truck bot I suggest you head over to this [link](https://goo.gl/pzZWpP)
+I made few enhancements over the weekend to seattle food truck bot. If you haven't read my previous post on seattle food truck bot I suggest you head over to this [link](https://goo.gl/pzZWpP)
 
 * Monday - Friday update a channel in slack with food trucks available for a specific number of locations
 

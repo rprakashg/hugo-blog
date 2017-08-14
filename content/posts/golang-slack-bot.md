@@ -2,6 +2,8 @@
 title: "Golang Slack Bot"
 date: 2017-08-06T15:20:16-07:00
 draft: false
+categories: ["resources", "golang", "botdevelopment"]
+tags: ["slack", "seattlefoodtruck", "bot", "golang"]
 ---
 
 # Overview

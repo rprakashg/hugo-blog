@@ -12,17 +12,17 @@ Configuration as code is a DevOps practice that promotes storing of application 
 
 * Versioning of application configuration
 
-By storing the application configuration in source code repository such as Git allows us to see what configuration changes were made over a period of time and who made those changes
+    By storing the application configuration in source code repository such as Git allows us to see what configuration changes were made over a period of time and who made those changes
 
-By using branches you can isolate changes that are under development without affecting the production application 
+    By using branches you can isolate changes that are under development without affecting the production application 
 
 * Traceability
 
-Versioned and managed properly, can provide tracking of what version of configuration is deployed in various environments
+    Versioned and managed properly, can provide tracking of what version of configuration is deployed in various environments
 
 * Make configuration changes without requiring to re-deploy application
 
-Operators would love you for this for ex. Operators can throttle logging level up in configuration settings file to troubleshoot a production issue without having to redeploy the application.
+    Operators would love you for this for ex. Operators can throttle logging level up in configuration settings file to troubleshoot a production issue without having to redeploy the application.
 
 ## Implementing config as code
 Now that we understand what configuration as code is and what benefits it brings let's take a look at how we would implement this with docker and spring boot. Spring boot provides support for keeping configuration settings in "yml" files instead of using a properties files, by default spring boot looks for these "yml" files under classpath but you can specify an explicit location by setting "spring.config.location" property via command line during application startup.

@@ -2,8 +2,8 @@
 title: "Configuration As Code With Docker and Spring Boot"
 date: 2017-09-22T09:55:57-07:00
 draft: false
-categories: ["spring boot", "config as code", "java"]
-tags: ["java", "devops", "microservices"]
+categories: ["spring boot", "config as code", "java", "docker"]
+tags: ["java", "devops", "microservices", "docker"]
 ---
 
 ## What is Configuration as code?

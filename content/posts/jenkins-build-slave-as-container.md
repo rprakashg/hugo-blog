@@ -2,6 +2,8 @@
 title: "Using docker for dynamically provisioning jenkins build slaves and running build jobs"
 date: 2017-07-07T23:49:22-07:00
 draft: false
+categories: ["jenkins", "docker"]
+tags: ["jenkins", "docker"]
 ---
 
 # Why?

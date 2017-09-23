@@ -2,6 +2,8 @@
 title: "Jenkins Build Slave Image For Building Hugo Projects"
 date: 2017-07-07T22:44:01-07:00
 draft: false
+categories: ["jenkins", "docker", "hugo"]
+tags: ["jenkins", "docker", "hugo"]
 ---
 # Overview
 At T-Mobile we are starting to leverage [Hugo](http://gohugo.io) which is an OSS static site generator tool for a few marketing type of sites. We are also huge Jenkins shop and run jenkins build slaves in docker and Mesos/Marathon. We use S3 bucket for hosting content generated, cloudfront for global content delivery and route 53 for DNS. I've created a docker jenkins build slave image for building hugo projects in Jenkins. Image comes preloaded with Hugo and AWS CLI along with S3Cmd utility that is typically used for syncing content to S3 bucket.

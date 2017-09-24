@@ -24,7 +24,7 @@ Configuration as code is a DevOps practice that promotes storing of application 
 
     Operators would love you for this for ex. Operators can throttle logging level up in configuration settings file to troubleshoot a production issue without having to redeploy the application.
 
-## Implementing config as code
+## Implementation
 Now that we understand what configuration as code is and what benefits it brings let's take a look at how we would implement this with docker and spring boot. Spring boot provides support for keeping configuration settings in "yml" files instead of using a properties files, by default spring boot looks for these "yml" files under classpath but you can specify an explicit location by setting "spring.config.location" property via command line during application startup.
 
 For the purpose of this article we have stored all default configurations for this demo application application.yml file and environment specific settings are stored in application-{environment label}.yml file as shown in screen capture below
@@ -34,8 +34,13 @@ For the purpose of this article we have stored all default configurations for th
 Since we are running the spring boot app in docker, we can use an "entrypoint.sh" bash script to pull default configuration and environment specific configuration files from "git" repository onto directory named "configs" as shown below using wget command.
 
 ```shell
+echo "Downloading configuration files from git repository"
 wget  $GIT_REPO/$LABEL/$REL_PATH/$APP_NAME.yml
 wget  $GIT_REPO/$LABEL/$REL_PATH/$APP_NAME-$PROFILE.yml
+
+echo "copying yml files to configs directory"
+cp $APP_NAME.yml ./configs/$APP_NAME.yml
+cp $APP_NAME-$PROFILE.yml ./configs/$APP_NAME-$PROFILE.yml
 ```
 
 As you can see from the above snippet
@@ -66,7 +71,7 @@ docker run -d -p 80:8080 -e PROFILE=staging -e GIT_REPO="https://raw.githubuserc
     -e LABEL=master -e REL_PATH="externalize-config-demo/src/main/resources" \
     -e APP_NAME="application" rprakashg/externalize-config-demo
 ```
-Demo application simply displays the configuration information as shown below
+Demo application simply displays the configuration information and you can see from the screen capture below that application has picked up default settings as well as staging environment specific settings.
 ![](/images/dzone5.png?raw=true)
 
 Let's run the same demo application now with production settings as shown in snippet below.

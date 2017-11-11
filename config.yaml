@@ -7,7 +7,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
     category: "categories"
-baseurl: "/"
+baseurl: "/blog"
 canonifyurls: true
 permalinks:
   post: /:year/:month/:title/

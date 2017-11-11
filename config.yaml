@@ -7,7 +7,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
     category: "categories"
-baseurl: http://rprakashg.io/blog/
+baseurl: "/"
 canonifyurls: true
 permalinks:
   post: /:year/:month/:title/

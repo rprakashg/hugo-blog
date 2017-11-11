@@ -10,4 +10,4 @@ RUN hugo
 
 FROM nginx
 
-COPY --from=builder /var/www/blog/public/ /usr/share/nginx/html
+COPY --from=builder /var/www/blog/public/ /usr/share/nginx/html/blog

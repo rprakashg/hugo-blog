@@ -93,17 +93,7 @@ There was no technology keynote on day 3. Below are links to recordings of few o
 * [Ingestion in data pipelines with Managed Kafka Clusters in Azure HDInsight](https://channel9.msdn.com/Events/Build/2018/THR3201)
 
 The conference ended with a celebration at museum of pop culture [mopop](https://www.mopop.org/).
-This was a fun event, and there was music, food, drinks, and access to all the exhibits. As a Marvel comics fan, I enjoyed the Marvel exhibits. Here are some pics I took
-
-![](/images/thor_and_hella.JPG?raw=true) &nbsp; ![](/images/tesseract.JPG?raw=true)
-
-![](/images/captain.JPG?raw=true) &nbsp; ![](/images/cap2.JPG?raw=true)
-
-![](/images/groot.JPG?raw=true) &nbsp; ![](/images/ironman.JPG?raw=true)
-
-![](/images/drstrange.JPG?raw=true) &nbsp; ![](/images/drstrange2.JPG?raw=true) &nbsp; ![](/images/agamotto.JPG?raw=true)
-
-![](/images/blackpanther.JPG?raw=true) &nbsp; ![](/images/capshield.JPG?raw=true)
+This was a fun event, and there was music, food, drinks, and access to all the exhibits. As a Marvel comics fan, I enjoyed the Marvel exhibits. I've uploaded all the pictures I took while I was at build to Google photos. Check out the album [here](https://photos.app.goo.gl/VwjMrqk3N5YpKUMr1)
 
 Overall build was a blast, hope to be back next year hopefully as speaker. Massive shout out to the team behind build for the job they did pulling together an event like this, finally huge thanks to Azure Advocates for inviting me. Keep rocking.
 

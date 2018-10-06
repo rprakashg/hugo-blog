@@ -2,7 +2,7 @@ language: go
 go:
 - 1.10.x
 install:
-- ./install-hugo-from-gh.sh
+- go get -v github.com/gohugoio/hugo
 - sudo pip install awscli
 script:
 - hugo

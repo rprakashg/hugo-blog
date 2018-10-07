@@ -22,7 +22,7 @@ Cleft surgery is safe and can cost as little as $250 and can take as little as 4
 
 Thankfully, with your help and the help of Smile Train, we can change a child’s life forever.
 
-Join me as I support Smile Train and race to give these children a second chance at life. Please visit my secure, personal fundraising page to make a donation and help me reach my goal of (NUMBER) new smiles for children in need. https://my.smiletrain.org/fundraiser/rprakashg
+Join me as I support Smile Train and race to give these children a second chance at life. Please visit my secure, personal fundraising page to make a donation and help me reach my goal of 20 new smiles for children in need. https://my.smiletrain.org/fundraiser/rprakashg
 
 If you feel more comfortable sending a check, please include a note with my name so that Smile Train knows to add it to my fundraiser. All donations can be sent to:
 

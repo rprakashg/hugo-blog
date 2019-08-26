@@ -1,5 +1,5 @@
 ---
-title: "RPRAKASHG.IO/BLOG"
+title: "blog.appsbyram.io"
 subtitle: "Tales from the trenches"
 languageCode: "en-us"
 contentdir: "content"
@@ -7,7 +7,7 @@ layoutdir: "layouts"
 publishdir: "public"
 indexes:
     category: "categories"
-baseurl: "http://rprakashg.io/blog/"
+baseurl: "/"
 canonifyurls: true
 permalinks:
   post: /:year/:month/:title/
@@ -21,4 +21,4 @@ menu:
       Pre: "<i class='fa fa-heart'></i>"
       Weight: -110
       Identifier: "about"
-      URL: "http://rprakashg.io/"
+      URL: "https://blog.appsbyram.io/"

@@ -29,7 +29,7 @@ We all know managing kubernetes platform is complex and as an enterprise our goa
 
 * **Part 6:** Administering your Google Kubernetes Engine Cluster
 
-    This post will cover administration activities such as Upgrading, Resizing clusters, Backup and Recovery, Configuring Kubectl access etc.
+    This post will cover administration activities such as Upgrading, Resizing clusters, Backup and Recovery, Understanding Resource Usage, Configuring Kubectl access etc.
 
 * **Part 7:** Enhancing platform services 
 
